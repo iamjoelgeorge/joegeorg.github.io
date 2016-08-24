@@ -85,6 +85,11 @@
 				margin: 0;
 				padding: 0;
 			}
+				<script type="text/javascript">
+		$(document).ready(function(){
+			$(".user").click(function(){
+				$(".user").css("width", "100%").css("height", "100%");
+			}
 		}
 	</style>
 
@@ -92,7 +97,7 @@
 		$(document).ready(function(){
 			$(".user").click(function(){
 				$(".user").css("width", "100%").css("height", "500px");
-				$(".user h2, h4, p").css("display", "block");
+				$(".user h2, h4, p").css("display", "");
 				$(".user p").css("color", "silver");
 				$("a div:not(.user)").hide();
 				// $("a div:not(.user)").removeAttr("style");
