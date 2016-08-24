@@ -44,7 +44,7 @@
 			transition: 0.3s;
 		}
 		.div-prop h2{
-			padding-top: 52px;
+			padding-top: 60px;
 		}
 		.div-prop p{
 			padding-top: 10px;
@@ -78,6 +78,7 @@
 		@media screen and (max-width: 1000px){
 			.div-prop{
 				box-shadow: 0px 0px 2px silver;
+				margin-top: 10px;
 				margin-left: auto;
 				margin-right: auto;
 			}
@@ -86,17 +87,17 @@
 				padding: 0;
 			}
 				<script type="text/javascript">
-		$(document).ready(function(){
-			$(".user").click(function(){
-				$(".user").css("width", "100%").css("height", "100%");
-			}
-		}
+		/*$(document).ready(function(){*/
+		/*	$(".user").click(function(){*/
+		/*		$(".user").css("width", "100%").css("height", "100%");*/
+		/*	}*/
+		/*}*/
 	</style>
 
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$(".user").click(function(){
-				$(".user").css("width", "100%").css("height", "500px");
+				$(".user").css("width", "100%").css("height", "100%");
 				$(".user h2, h4, p").css("display", "");
 				$(".user p").css("color", "silver");
 				$("a div:not(.user)").hide();
