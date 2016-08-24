@@ -78,14 +78,16 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$(".user").click(function(){
-				$(".user").css("width", "600px").css("height", "500px");
+				$(".user").css("margin-left", "-70px").css("width", "600px").css("height", "500px");
+				$(".user h2, h4, p").css("display", "block");
 				$(".user p").css("color", "silver");
 				$("a div:not(.user)").hide();
+				// $("a div:not(.user)").removeAttr("style");
 			});
 			$(".user").dblclick(function(){
-				$(".user").css({ "width": "300px", "height": "250px"});
+				$(".user").removeAttr("style");
+				$(".user h2, h4, p").css("display", "none");
 				$("a div").show();
-				// $(".user").removeAttr("style");
 			});
 			$(".fa").addClass("animated rollIn");
 		});
@@ -120,34 +122,34 @@
 						<h2>Joel George</h2>
 						<h4>Computer Science Engineering</h4>
 						<p>God &diams; Music &diams; Code</p>
-						</div>
-					</a>
-					<a href="#">
-						<div class="col-sm-3 div-prop photo">
-							<h1 class="text-center"><i class="fa fa-photo fa-3x"></i></h1>
-						</div>
-					</a>
-				</div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="col-sm-3 div-prop photo">
+						<h1 class="text-center"><i class="fa fa-photo fa-3x"></i></h1>
+					</div>
+				</a>
 			</div>
-			<div class="row menu-div-row-2">
-				<div class="col-sm-offset-1">
-					<a href="#">
-						<div class="col-sm-3 div-prop shop">
-							<h1 class="text-center"><i class="fa fa-shopping-cart fa-3x"></i></h1>
-						</div>
-					</a>
-					<a href="#">
-						<div class="col-sm-3 div-prop map">
-							<h1 class="text-center"><i class="fa fa-map-marker fa-3x"></i></h1>
-						</div>
-					</a>
-					<a href="#">
-						<div class="col-sm-3 div-prop feedback">
-							<h1 class="text-center"><i class="fa fa-pencil-square-o fa-3x"></i></h1>
-						</div>
-					</a>
-				</div>
+		</div>
+		<div class="row menu-div-row-2">
+			<div class="col-sm-offset-1">
+				<a href="#">
+					<div class="col-sm-3 div-prop shop">
+						<h1 class="text-center"><i class="fa fa-shopping-cart fa-3x"></i></h1>
+					</div>
+				</a>
+				<a href="#">
+					<div class="col-sm-3 div-prop map">
+						<h1 class="text-center"><i class="fa fa-map-marker fa-3x"></i></h1>
+					</div>
+				</a>
+				<a href="#">
+					<div class="col-sm-3 div-prop feedback">
+						<h1 class="text-center"><i class="fa fa-pencil-square-o fa-3x"></i></h1>
+					</div>
+				</a>
 			</div>
-		</section>
-	</body>
-	</html>
+		</div>
+	</section>
+</body>
+</html>
