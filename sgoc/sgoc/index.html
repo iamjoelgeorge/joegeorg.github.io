@@ -4,20 +4,25 @@
 	<title>SGOC Bangalore</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--  Bootstrap Library -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--  Bootstrap Library -->
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.min.css"><!--Font Awesome library-->
 	<link rel="stylesheet" type="text/css" href="animate.css"><!--animate.css library-->
 	<link rel="stylesheet" type="text/css" href="main.css">
-       <!--////////////////////	FONTS ////////////////////////////-->
+
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><!-- jquery -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!-- bootstrap js -->
 	<script src="script.js"></script>
+	
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">  --><!-- Bootstrap library -->
+	<!-- <script src="jQuery/jquery-3.1.0.min.js"></script> --><!--jQuery library-->
+	<!-- <script src="bootstrap-3.3.6/dist/css//bootstrap.min.js"></script>  --><!--Compiled JavaScript-->
+
 </head>
 <body>
 	<nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -37,12 +42,15 @@
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#aboutUs">About Us<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#faith-section">Our Faith</a></li>
-							<li><a href="#church">The Church</a></li>
-							<li><a href="#directory">Parish Directory</a></li>
+							<!-- <li><a href="#church">The Church</a></li> -->
 							<li><a href="#vicars">Our Vicars</a></li>
 							<li><a href="#organisations">Organisations</a></li>
+							<li><a href="#administration">Administration</a></li>
+							<li><a href="#directory">Parish Directory</a></li>
 							<li class="divider"></li>
-							<li><a href="#Updates">Updates</a></li>
+							<li><a style="color: #d9534f;" href="#reach">Reach Us</a></li>
+							<li class="divider"></li>
+							<li><a style="color: #5bc0de;" href="#updates">Updates</a></li>
 						</ul>
 					</li>
 					<li></li>
@@ -55,35 +63,34 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-</nav>
-<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<header id="home">
-	<div class="row">
-		<div id="church-name" class="col-xs-5 col-xs-push-6">
-			<h2 style="color: #261412;">St. Gregorios Orthodox Cathedral</h2>
-			<p style="color: #261412;" class="text-center">Bangalore</p>
-		</div>
-	</div>
-</header>
-<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="faith-section">
-	<div class="container-fluid" style="padding-right: 50px;">
+	</nav>
+	<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<header id="home">
 		<div class="row">
-			<div class="col-sm-6 text-center">
-				<img class="img-responsive" src="images/faith1.jpg">
-				<br/><br/>
-				<p class="text-justify" style="padding: 10px 16px;">
-					Our faith is not an opinion, not one of many possible views. It is an affirmation of what ultimate reality is-dependable, trustable reality. We do not put our trust either in the ancient character of our Church or in any dogmas or doctrines. Our trust is in the One True God-Father, Son and Holy Spirit, eternal, self-existent, indivisible, infinite, incomprehensible, glorious, holy, not created or owing his being to something else, all-sovereign, Creator of the whole universe.
-				</p>
+			<div id="church-name" class="col-xs-5 col-xs-push-6">
+				<h2 style="color: #261412;">St. Gregorios Orthodox Cathedral</h2>
+				<p style="color: #261412;" class="text-center">Bangalore</p>
 			</div>
-			<div class="col-sm-6" style="padding-left: 35px;">
-				<div style="margin-top: -30px" class="row">
-					<div style="padding-top: 30px;" class="col-sm-6">
-						<div class="faith-subsection">
-							<h2 class="text-center">Orthodoxy</h2>
-							<p class="text-justify">
-								The Oriental Orthodox family has five Churches - India, Armenia, Syria, Egypt and Ethiopia - three in Asia and two in Africa. Total membership is over 25 millions. The Indian Orthodox Church is a strictly Asian-African Church, an Apostolic Church in continuity with the ancient West Asian Apostolic Church. This Church was established in India in the very first century by the Apostle. St. Thomas.
+		</div>
+	</header>
+	<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<section id="faith-section">
+		<div class="container-fluid" style="padding-right: 50px;">
+			<div class="row">
+				<div class="col-sm-6 text-center">
+					<img class="img-responsive" src="images/faith1.jpg">
+					<br/><br/>
+					<p class="text-justify" style="padding: 10px 16px;">
+						Our faith is not an opinion, not one of many possible views. It is an affirmation of what ultimate reality is-dependable, trustable reality. We do not put our trust either in the ancient character of our Church or in any dogmas or doctrines. Our trust is in the One True God-Father, Son and Holy Spirit, eternal, self-existent, indivisible, infinite, incomprehensible, glorious, holy, not created or owing his being to something else, all-sovereign, Creator of the whole universe.
+					</p>
+				</div>
+				<div class="col-sm-6" style="padding-left: 35px;">
+					<div style="margin-top: -30px" class="row">
+						<div style="padding-top: 30px;" class="col-sm-6">
+							<div class="faith-subsection">
+								<h2 class="text-center">Orthodoxy</h2>
+								<p class="text-justify">
+									The Oriental Orthodox family has five Churches - India, Armenia, Syria, Egypt and Ethiopia - three in Asia and two in Africa. Total membership is over 25 millions. The Indian Orthodox Church is a strictly Asian-African Church, an Apostolic Church in continuity with the ancient West Asian Apostolic Church. This Church was established in India in the very first century by the Apostle. St. Thomas.
 								<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -149,30 +156,6 @@
 </div>
 </section>
 <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="organisations">
-	<div class="container">
-		<div class="row">
-			<h1 class="text-center heading">ORGANISATIONS</h1>
-		</div>
-		<div id="organisations-front-images" class="row">
-			<div id="sunday-school" class="col-sm-3">
-				<a href="file://sgoc/sgoc/organisatons.html#sunday-school"><img class="img-responsive" src="images/sunday_school.png"></a>
-			</div>
-			<div class="col-sm-3">
-				<a href="file://sgoc/sgoc/organisatons.html#mgocsm"><img class="img-responsive" src="images/mgocsm.png"></a>
-			</div>
-			<div class="col-sm-3">
-				<a href="file://sgoc/sgoc/organisatons.html#mary-league"><img class="img-responsive" src="images/mary.png"></a>
-			</div>
-			<div class="col-sm-3">
-				<a href="file://sgoc/sgoc/organisatons.html#choir"><img class="img-responsive" src="images/choir.png"></a>
-			</div>
-		</div>
-		
-	</div>
-</div>
-</section>
-<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="vicars">
 	<div class="container">
 		<div class="row text-center">
@@ -203,5 +186,43 @@
 		</div>
 	</div>
 </section>
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="organisations">
+	<div class="container">
+		<div class="row">
+			<h1 class="text-center heading">ORGANISATIONS</h1>
+		</div>
+		<div id="organisations-front-images" class="row">
+			<div id="sunday-school" class="col-sm-3">
+				<a href="file:///E:/Programs/WEB/html/sgoc/organisatons.html#sunday-school"><img class="img-responsive" src="images/sunday_school.png"></a>
+			</div>
+			<div class="col-sm-3">
+				<a href="file:///E:/Programs/WEB/html/sgoc/organisatons.html#mgocsm"><img class="img-responsive" src="images/mgocsm.png"></a>
+			</div>
+			<div class="col-sm-3">
+				<a href="file:///E:/Programs/WEB/html/sgoc/organisatons.html#mary-league"><img class="img-responsive" src="images/mary.png"></a>
+			</div>
+			<div class="col-sm-3">
+				<a href="file:///E:/Programs/WEB/html/sgoc/organisatons.html#choir"><img class="img-responsive" src="images/choir.png"></a>
+			</div>
+		</div>
+		
+	</div>
+</div>
+</section>
+<!--///////////////////THE FOLLOWING SECTION DESCRIBES THE MAP //////////////////////////-->	
+<section id="reach">
+	<div>
+		<h1 class="find-us text-danger">VISIT US!</h1>
+	</div>
+	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+	<div style="margin:20px 50px 20px;">
+		<div id='gmap_canvas' style='height:440px;width:auto;'></div>
+	</div>
+	<script type='text/javascript'>
+		function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(12.965808183224157,77.61134685717775),mapTypeId: google.maps.MapTypeId.SATELLITE};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.965808183224157,77.61134685717775)});infowindow = new google.maps.InfoWindow({content:'<strong>St. Gregorios Orthodox Cathedral</strong><br>18, Hosur Road, Richmond Town, Bangalore 560025, Karnataka, India.<br><br><i class="fa fa-phone" aria-hidden="true"> &nbsp;080 - 22211301</i> <BR><i class="fa fa-envelope" aria-hidden="true"> &nbsp;sgocbangalore@gmail.com</i>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+	</script>
+</section>
+		<!--//////////////////////MAP-SECTION ENDS HERE //////////////////////////////////////////
 </body>
 </html>
