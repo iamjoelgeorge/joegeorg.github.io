@@ -48,6 +48,7 @@ img{
 	background-color: #f7f7f7;
 	padding-top: 5%;
 	padding-bottom: 6%;
+	border-bottom: 1px solid #ebebeb;
 }
 .vicars {
 	min-height: 20px;
@@ -68,21 +69,34 @@ img{
 	padding: 10px;
 }
 #faith-section{
-	/*background-color: #456;*/
+	border-bottom: 1px solid #ebebeb;
 	width: 100%;
 	height: auto;
 	padding: 95px 0 3% 0;
 }
-@media screen and (max-width: 900px){
-	#faith-section{
-		padding-left: 30px;
-		padding-right: 30px;
+@media screen and (min-width: 200px){
+	header #church-name{
+		margin-top: 130px;
+	}
+}
+@media screen and (min-width: 400px){
+	header #church-name{
+		margin-top: 100px;
+	}
+}
+@media screen and (min-width: 650px){
+	header #church-name{
+		margin-top: 90px;
+	}
+}
+@media screen and (min-width: 992px){
+	header #church-name{
+		margin-left: 40px;
+		margin-top: auto;
 	}
 }
 #faith-section img{
-	display: inline-block;
-	height: 100%;
-	/*transform: scale(1.2);*/
+	margin: 0 auto;
 }
 #faith-section a{
 	text-decoration: none;
@@ -151,16 +165,35 @@ div .more:hover{
 	margin-top: 5%;
 }
 #mgocsm{
-	padding: 30px 0;
+	padding-bottom: 30px;
+}
+#mgocsm-div1{
+	margin-top: 50px;
+}
+@media screen and (max-width: 768px){
+	#mgocsm{
+		padding-bottom: -30px;
+	}
+	#mgocsm-div1{
+		margin-top: -10px;
+		margin-bottom: 40px;
+	}
 }
 #mary-league h3{
 	padding-left: 8px;
 }
-#mgocsm h1, #mary-league h1{
+ #mary-league h1{
 	margin-top: 15%;
 	/*font-size: 40px;*/
 }
 .container{
 	padding-right: 8px;
 	padding-left: 8px;
+}
+.find-us{
+	padding-top: 10px;
+	text-align: center;
+	font-family: nevis;
+	font-weight: bold;
+	font-size: 40px;
 }
