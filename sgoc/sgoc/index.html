@@ -314,18 +314,14 @@
 	<div>
 		<h1 class="find-us text-danger">VISIT US!</h1>
 	</div>
-	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBH6byxbxUbAzAVW8nr8OGDzeUcNyPP438&callback=init_map"></script>
 	<div style="margin:20px 50px 20px;">
 		<div id='gmap_canvas' style='height:440px;width:auto;'></div>
 	</div>
 	<script type='text/javascript'>
-		function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(12.965808183224157,77.61134685717775),mapTypeId: google.maps.MapTypeId.SATELLITE};
-		map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.965808183224157,77.61134685717775)});
-		infowindow = new google.maps.InfoWindow({content:'<strong>St. Gregorios Orthodox Cathedral</strong><br>18, Hosur Road, Richmond Town, Bangalore 560025, Karnataka, India.<br><br><i class="fa fa-phone" aria-hidden="true"> &nbsp;080 - 22211301</i> <BR><i class="fa fa-envelope" aria-hidden="true"> &nbsp;sgocbangalore@gmail.com</i>'});
-		google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});
-		infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+		function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(12.965808183224157,77.61134685717775),mapTypeId: google.maps.MapTypeId.SATELLITE};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.965808183224157,77.61134685717775)});infowindow = new google.maps.InfoWindow({content:'<strong>St. Gregorios Orthodox Cathedral</strong><br>18, Hosur Road, Richmond Town, Bangalore 560025, Karnataka, India.<br><br><i class="fa fa-phone" aria-hidden="true"> &nbsp;080 - 22211301</i> <BR><i class="fa fa-envelope" aria-hidden="true"> &nbsp;sgocbangalore@gmail.com</i>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
 	</script>
 </section>
-<!--//////////////////////MAP-SECTION ENDS HERE //////////////////////////////////////////-->
+		<!--//////////////////////MAP-SECTION ENDS HERE //////////////////////////////////////////-->
 </body>
 </html>
