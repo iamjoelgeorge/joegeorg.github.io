@@ -16,18 +16,31 @@ html, body{
 	width: 25%;
 	margin-top: 8%;
 	margin-left: -1.15%;
+	font-size: 200%;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 80em){
 	#home .get-fit-heading{
-		font-size: 155%;
+		font-size: 205%;
 		/*width: 100%;*/
 		background-color: transparent;
 		color: yellow;
-		text-shadow: 0px 0px 2px white;
-		margin-left: -3%;
+		text-shadow: 0px 0px 1px white;
+		margin-left: 1%;
 		/*margin-top: 90%;*/
 	}
 }
+@media screen and (max-width: 700px){
+	#home .get-fit-heading{
+		font-size: 128%;
+		/*width: 100%;*/
+		background-color: transparent;
+		color: yellow;
+		text-shadow: 0px 0px 1px white;
+		margin-left: -10px;
+		/*margin-top: 90%;*/
+	}
+}
+
 /*#nav-section{
 	height: auto;
 	margin-top: -10px;
@@ -58,20 +71,17 @@ html, body{
 	#main-nav ul a:hover{
 		color: 	#d9534f;
 	}
-	#trainers-section{
-		background-color: black;
-		background-image: url(images/background/back6.jpeg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: #ebebeb;
-		height: auto;
-		padding: 25px 0 20px;
-	}
+	
 	.headings{
 		/*letter-spacing: 2px;*/
 		font-family: 'Anton', sans-serif;
 	}
-	#training{
+	#services{
+		background: url(images/pexels-photo-28054.jpg) no-repeat top center;
+		background-size: cover;
+		background-attachment: fixed;
+		color: #ebebeb;
+		padding: 25px 0 20px;
 		height: 100vh;
 	}
 	#trainers-section img{
@@ -115,7 +125,7 @@ html, body{
 		/*padding: 90px 0 50px;*/
 	}
 	.testimonials{
-		background: url(images/gym23.jpg) no-repeat center;
+		background: url(images/gym16.jpg) no-repeat center;
 		background-attachment: fixed;
 		background-size: cover;
 		height: 350px;
@@ -129,7 +139,7 @@ html, body{
 	}
 	#myCarousel{
 		width: 100%;
-		margin: 4% auto;
+		/*margin: 4% auto;*/
 		/*font-family: 'Dosis', sans-serif;*/
 		/*font-family: 'Montez', cursive;*/
 		font-family: 'Shadows Into Light', cursive;
@@ -138,9 +148,38 @@ html, body{
 	#myCarousel p{
 		font-size: 30px;
 	}
+
+	input, textarea {
+		border-left:  transparent;
+		border-right:  transparent;
+		border-top:  transparent;
+		border-bottom: : 1px solid grey;
+		width: 350px;
+		background-color: transparent;
+		padding: 15px;
+		border-radius: 1px;
+		display:block;
+		margin-bottom: 20px;
+		outline: none;
+		box-shadow:none !important;
+	}
+	textarea {
+		border: 1px solid grey;
+		width: 100%;
+	}
+
+	input:hover, input:focus{
+		border-color: grey;
+		transition: 1s;
+		/*margin-bottom: 20px;*/
+	}
+	button {
+		outline: none;
+
+	}
 	footer{
 		width: 100%;
-		height: auto;
+		height: 100px;
 		background-color: black;
 		padding-bottom: 5px;
 	}	
@@ -158,10 +197,10 @@ html, body{
 		transition: 1s;
 	}
 	.heart:hover{
-/*		color: #FF6600;*/
+		/*		color: #FF6600;*/
 		letter-spacing: 2px;
 	}
-	#email{
+/*	#email{
 		margin-top: -22px;
 		margin-left: 44%;
 		font-size: 85%;
@@ -169,4 +208,4 @@ html, body{
 	#email a{
 		text-decoration: none;
 		color: #777;
-	}
+		}*/
