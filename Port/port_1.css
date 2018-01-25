@@ -16,11 +16,12 @@
 	background-size: contain, cover;
 	background-blend-mode: ;
 }
-.span-class{
+/* .span-class{
 	font-weight: bolder;
 	font-size: 1.5em;
-}
+} */
 #my_name h1{
+	font-weight: lighter;
 	font-size: 3em;
 	letter-spacing: 10px;
 	text-transform: ;
