@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Demo</title>
+</head>
+
+<body>
+
+</body>
+<script type="text/javascript">
+  let userName = prompt("Who's there", "");
+  if (userName == 'Admin') {
+    let pswd = prompt('PASSWORD?');
+
+    let message = (pswd == "TheMaster") ? "Welcome" :
+      (pswd == "" || pswd == null) ? "Cancelled" :
+      "Wrong Password";
+
+    alert(message);
+  } else if (userName == null || userName == "") {
+    alert("Cancelled");
+  } else {
+    alert("I don't know you");
+  }
+</script>
+
+</html>
